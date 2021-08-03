@@ -5757,3 +5757,613 @@ Script call stack:
 [2021.08.03-11.21.38:322][505]LogPlayLevel: Display: Destroying online subsystem :Context_80
 [2021.08.03-11.26.40:996][934]BlueprintLog: New page: Compile TwinStickPawn
 [2021.08.03-11.26.41:044][934]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2021.08.03-11.29.41:968][600]BlueprintLog: New page: Compile TwinStickPawn
+[2021.08.03-11.29.42:018][600]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2021.08.03-11.29.50:659][572]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-11.29.50:665][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.03-11.29.50:665][572]PIE: New page: PIE session: TwinStickExampleMap (Aug 3, 2021, 5:29:50 PM)
+[2021.08.03-11.29.50:704][572]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.29.50:708][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004089s)
+[2021.08.03-11.29.50:709][572]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2021.08.03-11.29.50:709][572]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2021.08.03-11.29.50:709][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005412s)
+[2021.08.03-11.29.50:732][572]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2021.08.03-11.29.50:734][572]LogAudio: Display: Creating Audio Device:                 Id: 77, Scope: Unique, Realtime: True
+[2021.08.03-11.29.50:734][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-11.29.50:734][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-11.29.50:734][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-11.29.50:734][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-11.29.50:734][572]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-11.29.50:734][572]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-11.29.50:735][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-11.29.50:735][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-11.29.50:735][572]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-11.29.50:735][572]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-11.29.50:737][572]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-11.29.50:738][572]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-11.29.50:748][572]LogAudioMixer: Display: Using Audio Device Speakers (JieLi BR21)
+[2021.08.03-11.29.50:748][572]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-11.29.50:748][572]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-11.29.50:748][572]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-11.29.50:748][572]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-11.29.50:748][572]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-11.29.50:748][572]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-11.29.50:763][572]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-11.29.50:763][572]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-11.29.50:763][572]LogInit: FAudioDevice initialized.
+[2021.08.03-11.29.50:763][572]LogAudio: Display: Audio Device (ID: 77) registered with world 'TwinStickExampleMap'.
+[2021.08.03-11.29.50:772][572]LogLoad: Game class is 'TwinStickGameMode_C'
+[2021.08.03-11.29.50:774][572]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2021.08.03-14.29.50
+[2021.08.03-11.29.50:774][572]LogWorld: Bringing up level for play took: 0.000995
+[2021.08.03-11.29.50:774][572]LogOnline: OSS: Creating online subsystem instance for: :Context_81
+[2021.08.03-11.29.50:776][572]PIE: Server logged in
+[2021.08.03-11.29.50:777][572]PIE: Play in editor total start time 0.114 seconds.
+[2021.08.03-11.30.09:934][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.30.09:934][806]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.30.09:934][806]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-11.30.09:934][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.30.09:953][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-11.30.09:975][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.30.09:995][806]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.03-11.30.09:996][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.30.09:997][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.30.10:011][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.30.10:015][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.08.03-11.30.10:054][807]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2021.08.03-11.31.16:330][278]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.08.03-11.31.16:350][278]LogSavePackage: Moving '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/TwinStickExampleMap_Auto52BEFD6074C5531E2218E5ABF764F3050.tmp' to '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/Autosaves/Game/TwinStickBP/Maps/TwinStickExampleMap_Auto5.umap'
+[2021.08.03-11.31.16:352][278]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.043
+[2021.08.03-11.31.16:353][278]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.043
+[2021.08.03-11.31.16:353][278]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/Blueprints/TwinStickPawn] ([2] browsable assets)...
+[2021.08.03-11.31.16:377][278]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn]
+[2021.08.03-11.31.16:394][278]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn]
+[2021.08.03-11.31.16:394][278]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/Blueprints/TwinStickPawn]
+[2021.08.03-11.31.16:421][278]LogSavePackage: Moving '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/TwinStickPawn_Auto5F6B56D8243ECE743F42BFCA0605424E4.tmp' to '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/Autosaves/Game/TwinStickBP/Blueprints/TwinStickPawn_Auto5.uasset'
+[2021.08.03-11.31.16:423][278]LogFileHelpers: Auto-saving content packages took 0.070
+[2021.08.03-11.41.29:376][895]BlueprintLog: New page: Compile TwinStickPawn
+[2021.08.03-11.41.29:424][895]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2021.08.03-11.42.30:042][213]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2021.08.03-11.42.30:066][213]LogSavePackage: Moving '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/TwinStickExampleMap_Auto62DD6A42648C83176DF11D8BC4378FD15.tmp' to '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/Autosaves/Game/TwinStickBP/Maps/TwinStickExampleMap_Auto6.umap'
+[2021.08.03-11.42.30:070][213]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.060
+[2021.08.03-11.42.30:070][213]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.060
+[2021.08.03-11.42.30:071][213]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/Blueprints/TwinStickPawn] ([2] browsable assets)...
+[2021.08.03-11.42.30:103][213]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn]
+[2021.08.03-11.42.30:120][213]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn]
+[2021.08.03-11.42.30:120][213]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/Blueprints/TwinStickPawn]
+[2021.08.03-11.42.30:152][213]LogSavePackage: Moving '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/TwinStickPawn_Auto6165326094F2F358A943A9193319B0050.tmp' to '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/Autosaves/Game/TwinStickBP/Blueprints/TwinStickPawn_Auto6.uasset'
+[2021.08.03-11.42.30:154][213]LogFileHelpers: Auto-saving content packages took 0.084
+[2021.08.03-11.44.32:815][254]LogSlate: Window 'Create External Curve' being destroyed
+[2021.08.03-11.45.45:527][796]BlueprintLog: New page: Compile TwinStickPawn
+[2021.08.03-11.45.45:578][796]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2021.08.03-11.50.03:185][669]BlueprintLog: New page: Compile TwinStickPawn
+[2021.08.03-11.50.03:191][669]LogBlueprint: Error: [AssetLog] C:\Users\Bot013\Documents\Unreal Projects\FireAndIce\Content\TwinStickBP\Blueprints\TwinStickPawn.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2021.08.03-11.50.03:236][669]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2021.08.03-11.50.29:469][627]BlueprintLog: New page: Compile TwinStickPawn
+[2021.08.03-11.50.29:517][627]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2021.08.03-11.50.30:745][752]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-11.50.30:750][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.03-11.50.30:750][752]PIE: New page: PIE session: TwinStickExampleMap (Aug 3, 2021, 5:50:30 PM)
+[2021.08.03-11.50.30:750][752]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.50.30:754][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004033s)
+[2021.08.03-11.50.30:755][752]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2021.08.03-11.50.30:755][752]LogPlayLevel: PIE: World Init took: (0.001117s)
+[2021.08.03-11.50.30:755][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005281s)
+[2021.08.03-11.50.30:778][752]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2021.08.03-11.50.30:779][752]LogAudio: Display: Creating Audio Device:                 Id: 78, Scope: Unique, Realtime: True
+[2021.08.03-11.50.30:779][752]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-11.50.30:779][752]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-11.50.30:779][752]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-11.50.30:779][752]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-11.50.30:779][752]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-11.50.30:779][752]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-11.50.30:779][752]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-11.50.30:779][752]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-11.50.30:780][752]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-11.50.30:780][752]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-11.50.30:783][752]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-11.50.30:783][752]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-11.50.30:792][752]LogAudioMixer: Display: Using Audio Device Speakers (JieLi BR21)
+[2021.08.03-11.50.30:793][752]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-11.50.30:793][752]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-11.50.30:793][752]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-11.50.30:793][752]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-11.50.30:793][752]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-11.50.30:793][752]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-11.50.30:808][752]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-11.50.30:808][752]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-11.50.30:808][752]LogInit: FAudioDevice initialized.
+[2021.08.03-11.50.30:808][752]LogAudio: Display: Audio Device (ID: 78) registered with world 'TwinStickExampleMap'.
+[2021.08.03-11.50.30:864][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.50.30:864][752]LogLoad: Game class is 'TwinStickGameMode_C'
+[2021.08.03-11.50.30:866][752]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2021.08.03-14.50.30
+[2021.08.03-11.50.30:866][752]LogWorld: Bringing up level for play took: 0.001042
+[2021.08.03-11.50.30:866][752]LogOnline: OSS: Creating online subsystem instance for: :Context_82
+[2021.08.03-11.50.30:869][752]PIE: Server logged in
+[2021.08.03-11.50.30:870][752]PIE: Play in editor total start time 0.121 seconds.
+[2021.08.03-11.50.40:354][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.50.40:354][847]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.50.40:354][847]LogSlate: Window 'FireAndIce Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.08.03-11.50.40:360][847]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-11.50.40:360][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.50.40:372][847]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-11.50.40:394][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.50.40:413][847]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.03-11.50.40:413][847]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.50.40:414][847]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.50.40:434][847]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.08.03-11.50.40:467][848]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2021.08.03-11.50.46:610][518]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-11.50.46:616][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.03-11.50.46:616][518]PIE: New page: PIE session: TwinStickExampleMap (Aug 3, 2021, 5:50:46 PM)
+[2021.08.03-11.50.46:616][518]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.50.46:620][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004203s)
+[2021.08.03-11.50.46:620][518]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2021.08.03-11.50.46:621][518]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2021.08.03-11.50.46:621][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005445s)
+[2021.08.03-11.50.46:643][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.08.03-11.50.46:644][518]LogAudio: Display: Creating Audio Device:                 Id: 79, Scope: Unique, Realtime: True
+[2021.08.03-11.50.46:644][518]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-11.50.46:644][518]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-11.50.46:644][518]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-11.50.46:644][518]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-11.50.46:644][518]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-11.50.46:644][518]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-11.50.46:644][518]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-11.50.46:644][518]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-11.50.46:645][518]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-11.50.46:645][518]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-11.50.46:647][518]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-11.50.46:647][518]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-11.50.46:656][518]LogAudioMixer: Display: Using Audio Device Speakers (JieLi BR21)
+[2021.08.03-11.50.46:656][518]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-11.50.46:657][518]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-11.50.46:657][518]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-11.50.46:657][518]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-11.50.46:657][518]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-11.50.46:657][518]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-11.50.46:670][518]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-11.50.46:670][518]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-11.50.46:670][518]LogInit: FAudioDevice initialized.
+[2021.08.03-11.50.46:670][518]LogAudio: Display: Audio Device (ID: 79) registered with world 'TwinStickExampleMap'.
+[2021.08.03-11.50.46:696][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.50.46:696][518]LogLoad: Game class is 'TwinStickGameMode_C'
+[2021.08.03-11.50.46:697][518]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2021.08.03-14.50.46
+[2021.08.03-11.50.46:698][518]LogWorld: Bringing up level for play took: 0.001176
+[2021.08.03-11.50.46:698][518]LogOnline: OSS: Creating online subsystem instance for: :Context_83
+[2021.08.03-11.50.46:701][518]PIE: Server logged in
+[2021.08.03-11.50.46:702][518]PIE: Play in editor total start time 0.087 seconds.
+[2021.08.03-11.50.47:734][625]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetRelativeLocation', from offset 330
+[2021.08.03-11.50.47:734][625]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:Timeline_0__UpdateFunc
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ExecuteUbergraph_TwinStickPawn
+
+[2021.08.03-11.50.50:782][625]LogSlate: Window 'FireAndIce Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.08.03-11.50.52:719][625]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.50.52:753][625]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-11.50.52:753][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.50.52:766][625]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-11.50.52:789][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.50.52:808][625]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.50.52:809][625]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.50.52:828][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.08.03-11.50.52:862][626]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2021.08.03-11.51.03:017][761]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-11.51.03:022][761]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.08.03-11.51.03:022][761]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2021.08.03-11.51.03:093][761]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2021.08.03-11.51.03:095][761]LogPlayLevel: PlayLevel: Blueprint regeneration took 73 ms (1 blueprints)
+[2021.08.03-11.51.03:095][761]PIE: New page: PIE session: TwinStickExampleMap (Aug 3, 2021, 5:51:03 PM)
+[2021.08.03-11.51.03:095][761]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.51.03:100][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004632s)
+[2021.08.03-11.51.03:101][761]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2021.08.03-11.51.03:102][761]LogPlayLevel: PIE: World Init took: (0.001332s)
+[2021.08.03-11.51.03:102][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.006128s)
+[2021.08.03-11.51.03:123][761]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.08.03-11.51.03:123][761]LogAudio: Display: Creating Audio Device:                 Id: 80, Scope: Unique, Realtime: True
+[2021.08.03-11.51.03:123][761]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-11.51.03:123][761]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-11.51.03:123][761]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-11.51.03:123][761]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-11.51.03:123][761]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-11.51.03:123][761]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-11.51.03:123][761]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-11.51.03:123][761]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-11.51.03:124][761]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-11.51.03:124][761]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-11.51.03:126][761]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-11.51.03:126][761]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-11.51.03:135][761]LogAudioMixer: Display: Using Audio Device Speakers (JieLi BR21)
+[2021.08.03-11.51.03:135][761]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-11.51.03:135][761]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-11.51.03:135][761]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-11.51.03:136][761]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-11.51.03:136][761]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-11.51.03:136][761]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-11.51.03:151][761]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-11.51.03:151][761]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-11.51.03:151][761]LogInit: FAudioDevice initialized.
+[2021.08.03-11.51.03:151][761]LogAudio: Display: Audio Device (ID: 80) registered with world 'TwinStickExampleMap'.
+[2021.08.03-11.51.03:196][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.51.03:196][761]LogLoad: Game class is 'TwinStickGameMode_C'
+[2021.08.03-11.51.03:197][761]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2021.08.03-14.51.03
+[2021.08.03-11.51.03:198][761]LogWorld: Bringing up level for play took: 0.001362
+[2021.08.03-11.51.03:198][761]LogOnline: OSS: Creating online subsystem instance for: :Context_84
+[2021.08.03-11.51.03:201][761]PIE: Server logged in
+[2021.08.03-11.51.03:201][761]PIE: Play in editor total start time 0.18 seconds.
+[2021.08.03-11.51.06:124][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.51.06:124][ 87]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.51.06:124][ 87]LogSlate: Window 'FireAndIce Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.08.03-11.51.06:130][ 87]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-11.51.06:130][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.51.06:142][ 87]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-11.51.06:165][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.51.06:184][ 87]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.51.06:185][ 87]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.51.06:204][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.08.03-11.51.06:237][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2021.08.03-11.51.20:455][573]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-11.51.20:461][573]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.08.03-11.51.20:461][573]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2021.08.03-11.51.20:531][573]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2021.08.03-11.51.20:532][573]LogPlayLevel: PlayLevel: Blueprint regeneration took 70 ms (1 blueprints)
+[2021.08.03-11.51.20:532][573]PIE: New page: PIE session: TwinStickExampleMap (Aug 3, 2021, 5:51:20 PM)
+[2021.08.03-11.51.20:532][573]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.51.20:536][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004013s)
+[2021.08.03-11.51.20:537][573]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2021.08.03-11.51.20:537][573]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2021.08.03-11.51.20:537][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005257s)
+[2021.08.03-11.51.20:558][573]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.08.03-11.51.20:559][573]LogAudio: Display: Creating Audio Device:                 Id: 81, Scope: Unique, Realtime: True
+[2021.08.03-11.51.20:559][573]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-11.51.20:559][573]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-11.51.20:559][573]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-11.51.20:559][573]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-11.51.20:559][573]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-11.51.20:559][573]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-11.51.20:559][573]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-11.51.20:559][573]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-11.51.20:559][573]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-11.51.20:559][573]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-11.51.20:562][573]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-11.51.20:562][573]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-11.51.20:571][573]LogAudioMixer: Display: Using Audio Device Speakers (JieLi BR21)
+[2021.08.03-11.51.20:571][573]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-11.51.20:571][573]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-11.51.20:571][573]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-11.51.20:572][573]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-11.51.20:572][573]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-11.51.20:572][573]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-11.51.20:586][573]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-11.51.20:586][573]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-11.51.20:586][573]LogInit: FAudioDevice initialized.
+[2021.08.03-11.51.20:586][573]LogAudio: Display: Audio Device (ID: 81) registered with world 'TwinStickExampleMap'.
+[2021.08.03-11.51.20:629][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.51.20:629][573]LogLoad: Game class is 'TwinStickGameMode_C'
+[2021.08.03-11.51.20:631][573]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2021.08.03-14.51.20
+[2021.08.03-11.51.20:631][573]LogWorld: Bringing up level for play took: 0.001052
+[2021.08.03-11.51.20:631][573]LogOnline: OSS: Creating online subsystem instance for: :Context_85
+[2021.08.03-11.51.20:634][573]PIE: Server logged in
+[2021.08.03-11.51.20:634][573]PIE: Play in editor total start time 0.174 seconds.
+[2021.08.03-11.51.20:635][573]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Movement', from offset 550
+[2021.08.03-11.51.20:635][573]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ReceiveTick
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ExecuteUbergraph_TwinStickPawn
+
+[2021.08.03-11.51.30:310][574]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Movement', from offset 550
+[2021.08.03-11.51.30:310][574]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ReceiveTick
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ExecuteUbergraph_TwinStickPawn
+
+[2021.08.03-11.51.35:136][575]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Movement', from offset 550
+[2021.08.03-11.51.35:136][575]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ReceiveTick
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ExecuteUbergraph_TwinStickPawn
+
+[2021.08.03-11.51.37:975][576]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Movement', from offset 550
+[2021.08.03-11.51.37:975][576]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ReceiveTick
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ExecuteUbergraph_TwinStickPawn
+
+[2021.08.03-11.51.40:110][576]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/StandardMacros.StandardMacros
+[2021.08.03-11.51.51:106][577]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Movement', from offset 550
+[2021.08.03-11.51.51:106][577]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ReceiveTick
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ExecuteUbergraph_TwinStickPawn
+
+[2021.08.03-11.52.15:196][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.52.15:196][577]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.52.15:196][577]LogSlate: Window 'FireAndIce Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.08.03-11.52.15:198][577]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-11.52.15:198][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.52.15:215][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-11.52.15:236][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.52.15:268][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.52.15:269][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.52.15:288][577]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.08.03-11.52.15:326][578]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2021.08.03-11.52.32:301][526]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-11.52.32:307][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.03-11.52.32:307][526]PIE: New page: PIE session: TwinStickExampleMap (Aug 3, 2021, 5:52:32 PM)
+[2021.08.03-11.52.32:307][526]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.52.32:311][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004142s)
+[2021.08.03-11.52.32:313][526]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2021.08.03-11.52.32:313][526]LogPlayLevel: PIE: World Init took: (0.001357s)
+[2021.08.03-11.52.32:313][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005644s)
+[2021.08.03-11.52.32:338][526]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.08.03-11.52.32:338][526]LogAudio: Display: Creating Audio Device:                 Id: 82, Scope: Unique, Realtime: True
+[2021.08.03-11.52.32:338][526]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-11.52.32:338][526]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-11.52.32:339][526]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-11.52.32:339][526]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-11.52.32:339][526]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-11.52.32:339][526]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-11.52.32:339][526]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-11.52.32:339][526]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-11.52.32:339][526]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-11.52.32:339][526]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-11.52.32:341][526]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-11.52.32:341][526]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-11.52.32:351][526]LogAudioMixer: Display: Using Audio Device Speakers (JieLi BR21)
+[2021.08.03-11.52.32:351][526]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-11.52.32:351][526]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-11.52.32:351][526]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-11.52.32:351][526]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-11.52.32:351][526]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-11.52.32:351][526]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-11.52.32:364][526]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-11.52.32:364][526]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-11.52.32:364][526]LogInit: FAudioDevice initialized.
+[2021.08.03-11.52.32:364][526]LogAudio: Display: Audio Device (ID: 82) registered with world 'TwinStickExampleMap'.
+[2021.08.03-11.52.32:417][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.52.32:417][526]LogLoad: Game class is 'TwinStickGameMode_C'
+[2021.08.03-11.52.32:418][526]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2021.08.03-14.52.32
+[2021.08.03-11.52.32:418][526]LogWorld: Bringing up level for play took: 0.001124
+[2021.08.03-11.52.32:419][526]LogOnline: OSS: Creating online subsystem instance for: :Context_87
+[2021.08.03-11.52.32:422][526]PIE: Server logged in
+[2021.08.03-11.52.32:423][526]PIE: Play in editor total start time 0.116 seconds.
+[2021.08.03-11.52.32:424][526]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Movement', from offset 550
+[2021.08.03-11.52.32:424][526]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ReceiveTick
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ExecuteUbergraph_TwinStickPawn
+
+[2021.08.03-11.52.33:931][527]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Movement', from offset 550
+[2021.08.03-11.52.33:931][527]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ReceiveTick
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ExecuteUbergraph_TwinStickPawn
+
+[2021.08.03-11.52.55:432][527]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetWorldLocation', from offset 262
+[2021.08.03-11.52.55:432][527]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ReceiveTick
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ExecuteUbergraph_TwinStickPawn
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:Movement
+
+[2021.08.03-11.53.24:286][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.53.24:286][527]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.53.24:286][527]LogSlate: Window 'FireAndIce Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.08.03-11.53.24:288][527]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-11.53.24:288][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.53.24:307][527]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-11.53.24:329][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.53.24:352][527]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.53.24:353][527]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.53.24:373][527]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.08.03-11.53.24:409][528]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2021.08.03-11.53.42:769][563]LogEditorTransaction: Undo Create Pin Link
+[2021.08.03-11.53.43:635][610]LogEditorTransaction: Undo Create Pin Link
+[2021.08.03-11.53.45:139][754]LogEditorTransaction: Undo Move Node
+[2021.08.03-11.54.18:521][248]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-11.54.18:526][248]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.08.03-11.54.18:528][248]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2021.08.03-11.54.18:602][248]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2021.08.03-11.54.18:603][248]LogPlayLevel: PlayLevel: Blueprint regeneration took 76 ms (1 blueprints)
+[2021.08.03-11.54.18:603][248]PIE: New page: PIE session: TwinStickExampleMap (Aug 3, 2021, 5:54:18 PM)
+[2021.08.03-11.54.18:603][248]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.54.18:607][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004066s)
+[2021.08.03-11.54.18:608][248]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2021.08.03-11.54.18:609][248]LogPlayLevel: PIE: World Init took: (0.001180s)
+[2021.08.03-11.54.18:609][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005385s)
+[2021.08.03-11.54.18:633][248]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.08.03-11.54.18:633][248]LogAudio: Display: Creating Audio Device:                 Id: 83, Scope: Unique, Realtime: True
+[2021.08.03-11.54.18:633][248]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-11.54.18:633][248]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-11.54.18:633][248]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-11.54.18:633][248]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-11.54.18:633][248]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-11.54.18:633][248]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-11.54.18:633][248]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-11.54.18:633][248]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-11.54.18:634][248]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-11.54.18:634][248]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-11.54.18:636][248]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-11.54.18:636][248]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-11.54.18:645][248]LogAudioMixer: Display: Using Audio Device Speakers (JieLi BR21)
+[2021.08.03-11.54.18:646][248]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-11.54.18:646][248]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-11.54.18:646][248]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-11.54.18:646][248]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-11.54.18:646][248]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-11.54.18:646][248]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-11.54.18:660][248]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-11.54.18:660][248]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-11.54.18:660][248]LogInit: FAudioDevice initialized.
+[2021.08.03-11.54.18:660][248]LogAudio: Display: Audio Device (ID: 83) registered with world 'TwinStickExampleMap'.
+[2021.08.03-11.54.18:706][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.54.18:706][248]LogLoad: Game class is 'TwinStickGameMode_C'
+[2021.08.03-11.54.18:707][248]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2021.08.03-14.54.18
+[2021.08.03-11.54.18:707][248]LogWorld: Bringing up level for play took: 0.001044
+[2021.08.03-11.54.18:708][248]LogOnline: OSS: Creating online subsystem instance for: :Context_88
+[2021.08.03-11.54.18:710][248]PIE: Server logged in
+[2021.08.03-11.54.18:711][248]PIE: Play in editor total start time 0.185 seconds.
+[2021.08.03-11.54.18:712][248]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Movement', from offset 391
+[2021.08.03-11.54.18:712][248]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ReceiveTick
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ExecuteUbergraph_TwinStickPawn
+
+[2021.08.03-11.54.22:103][248]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetWorldLocation', from offset 262
+[2021.08.03-11.54.22:103][248]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ReceiveTick
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ExecuteUbergraph_TwinStickPawn
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:Movement
+
+[2021.08.03-11.54.26:415][445]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetRelativeLocation', from offset 125
+[2021.08.03-11.54.26:415][445]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:Timeline_0__FinishedFunc
+	Function /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn_C:ExecuteUbergraph_TwinStickPawn
+
+[2021.08.03-11.54.31:435][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.54.31:435][653]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.54.31:435][653]LogSlate: Window 'FireAndIce Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.08.03-11.54.31:440][653]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-11.54.31:441][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.54.31:457][653]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-11.54.31:479][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.54.31:502][653]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.54.31:503][653]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.54.31:523][653]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.08.03-11.54.31:556][654]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2021.08.03-11.55.46:783][282]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-11.55.46:788][282]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.08.03-11.55.46:789][282]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2021.08.03-11.55.46:865][282]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2021.08.03-11.55.46:865][282]LogPlayLevel: PlayLevel: Blueprint regeneration took 78 ms (1 blueprints)
+[2021.08.03-11.55.46:865][282]PIE: New page: PIE session: TwinStickExampleMap (Aug 3, 2021, 5:55:46 PM)
+[2021.08.03-11.55.46:866][282]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.55.46:870][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004058s)
+[2021.08.03-11.55.46:871][282]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2021.08.03-11.55.46:871][282]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2021.08.03-11.55.46:871][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.005356s)
+[2021.08.03-11.55.46:897][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.08.03-11.55.46:897][282]LogAudio: Display: Creating Audio Device:                 Id: 84, Scope: Unique, Realtime: True
+[2021.08.03-11.55.46:897][282]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-11.55.46:897][282]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-11.55.46:897][282]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-11.55.46:897][282]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-11.55.46:897][282]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-11.55.46:897][282]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-11.55.46:897][282]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-11.55.46:897][282]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-11.55.46:898][282]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-11.55.46:898][282]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-11.55.46:900][282]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-11.55.46:900][282]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-11.55.46:910][282]LogAudioMixer: Display: Using Audio Device Speakers (JieLi BR21)
+[2021.08.03-11.55.46:910][282]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-11.55.46:910][282]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-11.55.46:910][282]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-11.55.46:910][282]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-11.55.46:910][282]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-11.55.46:910][282]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-11.55.46:925][282]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-11.55.46:925][282]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-11.55.46:925][282]LogInit: FAudioDevice initialized.
+[2021.08.03-11.55.46:925][282]LogAudio: Display: Audio Device (ID: 84) registered with world 'TwinStickExampleMap'.
+[2021.08.03-11.55.46:976][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.55.46:977][282]LogLoad: Game class is 'TwinStickGameMode_C'
+[2021.08.03-11.55.46:978][282]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2021.08.03-14.55.46
+[2021.08.03-11.55.46:978][282]LogWorld: Bringing up level for play took: 0.001084
+[2021.08.03-11.55.46:978][282]LogOnline: OSS: Creating online subsystem instance for: :Context_89
+[2021.08.03-11.55.46:981][282]PIE: Server logged in
+[2021.08.03-11.55.46:982][282]PIE: Play in editor total start time 0.195 seconds.
+[2021.08.03-11.55.57:425][487]LogSlate: Window 'FireAndIce Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.08.03-11.55.57:434][487]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.55.57:434][487]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-11.55.57:434][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.55.57:446][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-11.55.57:467][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.55.57:489][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.55.57:490][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.55.57:509][487]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.08.03-11.55.57:545][488]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2021.08.03-11.56.16:014][502]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-11.56.16:019][502]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.08.03-11.56.16:020][502]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2021.08.03-11.56.16:094][502]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2021.08.03-11.56.16:094][502]LogPlayLevel: PlayLevel: Blueprint regeneration took 75 ms (1 blueprints)
+[2021.08.03-11.56.16:094][502]PIE: New page: PIE session: TwinStickExampleMap (Aug 3, 2021, 5:56:16 PM)
+[2021.08.03-11.56.16:094][502]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.56.16:099][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004519s)
+[2021.08.03-11.56.16:101][502]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2021.08.03-11.56.16:101][502]LogPlayLevel: PIE: World Init took: (0.001694s)
+[2021.08.03-11.56.16:101][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.006399s)
+[2021.08.03-11.56.16:126][502]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.08.03-11.56.16:127][502]LogAudio: Display: Creating Audio Device:                 Id: 85, Scope: Unique, Realtime: True
+[2021.08.03-11.56.16:127][502]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-11.56.16:127][502]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-11.56.16:127][502]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-11.56.16:127][502]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-11.56.16:127][502]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-11.56.16:127][502]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-11.56.16:127][502]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-11.56.16:127][502]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-11.56.16:127][502]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-11.56.16:127][502]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-11.56.16:130][502]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-11.56.16:130][502]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-11.56.16:138][502]LogAudioMixer: Display: Using Audio Device Speakers (JieLi BR21)
+[2021.08.03-11.56.16:139][502]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-11.56.16:139][502]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-11.56.16:139][502]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-11.56.16:139][502]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-11.56.16:139][502]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-11.56.16:139][502]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-11.56.16:154][502]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-11.56.16:154][502]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-11.56.16:154][502]LogInit: FAudioDevice initialized.
+[2021.08.03-11.56.16:154][502]LogAudio: Display: Audio Device (ID: 85) registered with world 'TwinStickExampleMap'.
+[2021.08.03-11.56.16:188][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.56.16:188][502]LogLoad: Game class is 'TwinStickGameMode_C'
+[2021.08.03-11.56.16:189][502]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2021.08.03-14.56.16
+[2021.08.03-11.56.16:190][502]LogWorld: Bringing up level for play took: 0.001010
+[2021.08.03-11.56.16:190][502]LogOnline: OSS: Creating online subsystem instance for: :Context_90
+[2021.08.03-11.56.16:192][502]PIE: Server logged in
+[2021.08.03-11.56.16:193][502]PIE: Play in editor total start time 0.174 seconds.
+[2021.08.03-11.56.37:581][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-11.56.37:581][ 32]LogWorld: BeginTearingDown for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2021.08.03-11.56.37:581][ 32]LogSlate: Window 'FireAndIce Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.08.03-11.56.37:586][ 32]LogWorld: UWorld::CleanupWorld for TwinStickExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-11.56.37:587][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.56.37:604][ 32]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-11.56.37:626][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-11.56.37:649][ 32]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.56.37:650][ 32]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-11.56.37:669][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2021.08.03-11.56.37:705][ 33]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2021.08.03-11.57.05:085][122]BlueprintLog: New page: Compile TwinStickPawn
+[2021.08.03-11.57.05:140][122]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2021.08.03-11.57.37:668][826]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2021.08.03-11.57.37:687][826]LogSavePackage: Moving '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/TwinStickExampleMap_Auto7F4072A3D4EB8852E1A132FA80E5BBE95.tmp' to '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/Autosaves/Game/TwinStickBP/Maps/TwinStickExampleMap_Auto7.umap'
+[2021.08.03-11.57.37:689][826]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.047
+[2021.08.03-11.57.37:689][826]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.047
+[2021.08.03-11.57.37:689][826]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/Blueprints/TwinStickPawn] ([2] browsable assets)...
+[2021.08.03-11.57.37:715][826]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn]
+[2021.08.03-11.57.37:732][826]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn]
+[2021.08.03-11.57.37:732][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/Blueprints/TwinStickPawn]
+[2021.08.03-11.57.37:764][826]LogSavePackage: Moving '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/TwinStickPawn_Auto745E0537E41D7C1A17AD00098C14F0CBF.tmp' to '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/Autosaves/Game/TwinStickBP/Blueprints/TwinStickPawn_Auto7.uasset'
+[2021.08.03-11.57.37:765][826]LogFileHelpers: Auto-saving content packages took 0.077
+[2021.08.03-11.59.37:508][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.08.03-12.01.07:822][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Obstacle1)
+[2021.08.03-12.01.11:931][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.08.03-12.07.37:640][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2021.08.03-12.07.37:660][216]LogSavePackage: Moving '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/TwinStickExampleMap_Auto8358DD1AC4FB4FF4EF585C6B3417CDA16.tmp' to '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/Autosaves/Game/TwinStickBP/Maps/TwinStickExampleMap_Auto8.umap'
+[2021.08.03-12.07.37:662][216]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.047
+[2021.08.03-12.07.37:662][216]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.047
+[2021.08.03-12.27.13:185][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.08.03-12.27.13:188][637]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.027
+[2021.08.03-12.27.13:189][637]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TwinStickBP/Blueprints/TwinStickPawn] ([2] browsable assets)...
+[2021.08.03-12.27.13:189][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/Blueprints/TwinStickPawn]
+[2021.08.03-12.27.13:216][637]LogSavePackage: Moving '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/TwinStickPawn_Auto9195B91324694C5AD0698E1855C0253A2.tmp' to '../../../../../../Users/Bot013/Documents/Unreal Projects/FireAndIce/Saved/Autosaves/Game/TwinStickBP/Blueprints/TwinStickPawn_Auto9.uasset'
+[2021.08.03-12.27.13:218][637]LogFileHelpers: Auto-saving content packages took 0.030
+[2021.08.03-12.40.18:180][  6]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.08.03-12.40.18:180][  6]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
