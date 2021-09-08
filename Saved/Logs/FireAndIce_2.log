@@ -1898,3 +1898,128 @@ Script call stack:
 [2021.09.03-07.35.39:834][ 73]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2021.09.03-07.35.39:854][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
 [2021.09.03-07.35.39:869][ 74]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.09.03-10.01.34:283][622]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{2d4f503d-6a72-4b36-bc3a-594c09c7cdd5}.
+[2021.09.03-10.01.34:283][622]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.03-10.01.34:287][622]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.03-10.01.34:287][622]LogAudioMixer: Display: 1: FrontRight
+[2021.09.04-07.05.33:754][626]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-07.05.33:780][626]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.09.04-07.05.33:810][627]LogHttp: Warning: 0000023D0564E400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF5374A52-48C8-9A94-CB7A-C58EA29D09D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=b86fa6f34228e6fa9028dabaa42c8bd6%7Ce973b15ff26446f7bf389b4920d89eca%7Cef7b0dde-eb9d-429f-8ac8-4068ea9f27d4&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.09.04-07.05.33:810][627]LogHttp: Warning: 0000023D0564E400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.09.04-07.05.33:810][627]LogHttp: Warning: 0000023D0564E400: libcurl info message cache 0 (Connection 1 seems to be dead!)
+[2021.09.04-07.05.33:810][627]LogHttp: Warning: 0000023D0564E400: libcurl info message cache 1 (Closing connection 1)
+[2021.09.04-07.05.33:810][627]LogHttp: Warning: 0000023D0564E400: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.09.04-07.05.33:810][627]LogHttp: Warning: 0000023D0564E400: libcurl info message cache 3 (Closing connection 3)
+[2021.09.04-07.05.33:840][628]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF5374A52-48C8-9A94-CB7A-C58EA29D09D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=b86fa6f34228e6fa9028dabaa42c8bd6%7Ce973b15ff26446f7bf389b4920d89eca%7Cef7b0dde-eb9d-429f-8ac8-4068ea9f27d4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.09.04-07.05.35:169][631]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{d400a2bb-83b8-4d4a-8c6f-15113316ba40}.
+[2021.09.04-07.05.35:169][631]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-07.05.35:169][631]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.09.04-07.05.35:196][631]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.04-07.05.35:196][631]LogAudioMixer: Display: 1: FrontRight
+[2021.09.04-07.08.13:008][614]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2021.09.04-07.08.13:008][614]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-07.08.13:009][614]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.09.04-07.40.06:515][618]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.09.04-07.40.09:875][619]LogHttp: Warning: 0000023D0589B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF5374A52-48C8-9A94-CB7A-C58EA29D09D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=b86fa6f34228e6fa9028dabaa42c8bd6%7Ce973b15ff26446f7bf389b4920d89eca%7Cef7b0dde-eb9d-429f-8ac8-4068ea9f27d4&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.09.04-07.40.09:876][619]LogHttp: Warning: 0000023D0589B200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.09.04-07.40.09:876][619]LogHttp: Warning: 0000023D0589B200: libcurl info message cache 0 (Connection 4 seems to be dead!)
+[2021.09.04-07.40.09:876][619]LogHttp: Warning: 0000023D0589B200: libcurl info message cache 1 (Closing connection 4)
+[2021.09.04-07.40.09:876][619]LogHttp: Warning: 0000023D0589B200: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.09.04-07.40.09:876][619]LogHttp: Warning: 0000023D0589B200: libcurl info message cache 3 (Closing connection 5)
+[2021.09.04-07.40.09:896][620]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF5374A52-48C8-9A94-CB7A-C58EA29D09D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=b86fa6f34228e6fa9028dabaa42c8bd6%7Ce973b15ff26446f7bf389b4920d89eca%7Cef7b0dde-eb9d-429f-8ac8-4068ea9f27d4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.09.04-07.40.11:222][623]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{d400a2bb-83b8-4d4a-8c6f-15113316ba40}.
+[2021.09.04-07.40.11:222][623]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-07.40.11:222][623]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.09.04-07.40.11:234][623]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.04-07.40.11:234][623]LogAudioMixer: Display: 1: FrontRight
+[2021.09.04-08.03.48:130][855]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2021.09.04-08.03.48:130][855]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-08.03.48:131][855]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.09.04-14.53.57:519][861]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.09.04-14.54.00:597][863]LogHttp: Warning: 0000023D0589B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF5374A52-48C8-9A94-CB7A-C58EA29D09D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=b86fa6f34228e6fa9028dabaa42c8bd6%7Ce973b15ff26446f7bf389b4920d89eca%7Cef7b0dde-eb9d-429f-8ac8-4068ea9f27d4&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.09.04-14.54.00:598][863]LogHttp: Warning: 0000023D0589B200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.09.04-14.54.00:598][863]LogHttp: Warning: 0000023D0589B200: libcurl info message cache 0 (Connection 6 seems to be dead!)
+[2021.09.04-14.54.00:598][863]LogHttp: Warning: 0000023D0589B200: libcurl info message cache 1 (Closing connection 6)
+[2021.09.04-14.54.00:598][863]LogHttp: Warning: 0000023D0589B200: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.09.04-14.54.00:598][863]LogHttp: Warning: 0000023D0589B200: libcurl info message cache 3 (Closing connection 7)
+[2021.09.04-14.54.00:909][864]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF5374A52-48C8-9A94-CB7A-C58EA29D09D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=b86fa6f34228e6fa9028dabaa42c8bd6%7Ce973b15ff26446f7bf389b4920d89eca%7Cef7b0dde-eb9d-429f-8ac8-4068ea9f27d4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.09.04-14.54.01:912][866]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{d400a2bb-83b8-4d4a-8c6f-15113316ba40}.
+[2021.09.04-14.54.01:912][866]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-14.54.01:912][866]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.09.04-14.54.01:929][866]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.04-14.54.01:929][866]LogAudioMixer: Display: 1: FrontRight
+[2021.09.04-14.54.49:191][  7]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2021.09.04-14.54.49:191][  7]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-14.54.49:192][  7]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.09.04-15.58.37:509][ 12]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.09.04-15.58.42:046][ 17]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{d400a2bb-83b8-4d4a-8c6f-15113316ba40}.
+[2021.09.04-15.58.42:046][ 17]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-15.58.42:046][ 17]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.09.04-15.58.42:062][ 17]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.04-15.58.42:062][ 17]LogAudioMixer: Display: 1: FrontRight
+[2021.09.04-16.01.01:340][732]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{d400a2bb-83b8-4d4a-8c6f-15113316ba40}.
+[2021.09.04-16.01.01:340][732]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-16.01.01:360][732]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.04-16.01.01:360][732]LogAudioMixer: Display: 1: FrontRight
+[2021.09.04-16.01.06:393][747]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{11a5de99-8ee8-49ac-a22d-6b7a18074cfa}.
+[2021.09.04-16.01.06:393][747]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-16.01.06:412][747]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.04-16.01.06:412][747]LogAudioMixer: Display: 1: FrontRight
+[2021.09.04-16.05.25:879][ 71]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{d400a2bb-83b8-4d4a-8c6f-15113316ba40}.
+[2021.09.04-16.05.25:879][ 71]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-16.05.25:900][ 71]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.04-16.05.25:900][ 71]LogAudioMixer: Display: 1: FrontRight
+[2021.09.04-17.22.50:281][ 85]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{11a5de99-8ee8-49ac-a22d-6b7a18074cfa}.
+[2021.09.04-17.22.50:281][ 85]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-17.22.50:299][ 85]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.09.04-17.55.02:505][ 90]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.09.04-17.55.07:197][ 95]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{d400a2bb-83b8-4d4a-8c6f-15113316ba40}.
+[2021.09.04-17.55.07:197][ 95]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-17.55.07:197][ 95]LogAudioMixer: Display: StopRunningNullDevice() called
+[2021.09.04-17.55.07:211][ 95]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.04-17.55.07:211][ 95]LogAudioMixer: Display: 1: FrontRight
+[2021.09.04-18.16.27:847][910]LogAnalytics: Warning: EventCache either took too long to flush (17.637 ms) or had a very large payload (0.425 KB, 1 events). Listing events in the payload for investigation:
+[2021.09.04-18.16.27:847][910]LogAnalytics: Warning:     Editor.Usage.Heartbeat,422
+[2021.09.04-18.38.16:599][964]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{11a5de99-8ee8-49ac-a22d-6b7a18074cfa}.
+[2021.09.04-18.38.16:599][964]LogAudioMixer: Resetting audio stream to device id 
+[2021.09.04-18.38.16:621][964]LogAudioMixer: Display: StartRunningNullDevice() called
+[2021.09.04-19.26.12:508][968]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.09.04-19.26.14:028][968]LogRHI: Error: Present Fail Count 1
+[2021.09.04-19.26.14:029][968]LogRHI: Error: SyncInterval 0
+[2021.09.04-19.26.14:029][968]LogRHI: Error: SwapChainDesc.BufferDesc.Width 2578
+[2021.09.04-19.26.14:029][968]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2021.09.04-19.26.14:029][968]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2021.09.04-19.26.14:029][968]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2021.09.04-19.26.14:029][968]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2021.09.04-19.26.14:029][968]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2021.09.04-19.26.14:029][968]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2021.09.04-19.26.14:029][968]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.OutputWindow 000000000E1E0926
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.Windowed true
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.Flags 2050
+[2021.09.04-19.26.14:030][968]LogRHI: Error: Present Fail Count 1
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SyncInterval 0
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.BufferDesc.Width 915
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.BufferDesc.Height 71
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.OutputWindow 000000001DA50922
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.Windowed true
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2021.09.04-19.26.14:030][968]LogRHI: Error: SwapChainDesc.Flags 2050
+[2021.09.04-19.26.14:030][968]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp:356 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_RESET
+[2021.09.04-19.26.14:030][968]LogD3D11RHI: [Aftermath] GDynamicRHI=0000023CFDA86140, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2021.09.04-19.26.14:030][968]LogWindows: Windows GetLastError: The operation completed successfully. (0)
